@@ -5,8 +5,8 @@ A grader to find out your final degree classification
 ## Instructions
 
 Use the my_grades list to input your grades with the following shape:
-my_grades = [[<YEAR1>], [<YEAR2>], [<YEAR3>]]
-where each <YEAR> is a tuple of "course credits" and "pass grade" attained.
+my_grades = [[YEAR1], [YEAR2], [YEAR3]]
+where each YEAR is a tuple of "course credits" and "pass grade" attained.
 eg. (30, 1) for a distinction on a course worth 30 credits
 
 ## Reference
