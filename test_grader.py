@@ -70,4 +70,9 @@ assert get_final_classifaction(pass_4) == PASS_4
 assert get_final_classifaction(maddie) == PASS_3
 assert get_final_classifaction(rajiv) == PASS_2
 
+assert grade_to_classification(1) == "1st"
+assert grade_to_classification(2) == "2:1"
+assert grade_to_classification(3) == "2:2"
+assert grade_to_classification(4) == "3rd"
+
 print("ALL TESTS PASSED".center(80, "-"))

@@ -111,8 +111,18 @@ def get_final_classifaction(grades):
         Output: int (1,2,3,4)
     """
     return max(credits_to_grades(get_credits(grades)), quality_assurance(grades))
-        
+
+def grade_to_classification(grade):
+    """ Convert grade (eg. 1) to classification
+        eg. "1st"
+        Input: int (1,2,3,4)
+        Output: String ("1st", "2:1", "2:2", "3rd")
+    """
+    classifications = {1: "1st", 2: "2:1", 3: "2:2", 4: "3rd"}
+    return classifications[grade]
+
 if __name__ == "__main__":
-    print(get_final_classifaction(my_grades))
+    final_grade = get_final_classifaction(my_grades)
+    print(grade_to_classification(final_grade))
 
         
