@@ -11,7 +11,8 @@ eg. (30, 1) for a distinction on a course worth 30 credits
 
 ## Reference
 
-The document was used to determine classification.
+The document "Working out your Class of Honours" (Open University, 2016) was used to determine classification.
+https://help.open.ac.uk/documents/policies/working-out-your-class-of-honours/files/50/honours-class-working-out.pdf
 
 ## Testing
 
